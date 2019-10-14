@@ -1,0 +1,21 @@
+function vowelsAndConsonants(s) {
+    var value="";
+    var cons ="";
+    for(var i = 0; i < s.length; i ++){
+        if( s[i] == "a" || s[i]=="e"||s[i]=="i"||s[i]=="o"||s[i]=="u"){
+        //if (i== s.length)
+         //{
+        // value =value + s[i];  
+         //}
+         //else{
+             value =value + s[i]+ "\n"; 
+        // }
+        }
+        else
+        {
+         
+         cons = cons + s[i] + "\n";
+        }
+    }
+    console.log(value + cons);
+}

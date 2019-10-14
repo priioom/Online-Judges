@@ -1,0 +1,17 @@
+function reverseString(s) {
+      var jon ;
+      var splt;
+      var rev;
+    try {
+      splt=s.split("");
+      rev = splt.reverse();
+      jon = rev.join("");
+          //console.log(rev);
+             // console.log(splt);
+    console.log(jon);
+}
+catch(err) {
+ console.log(err.message);
+ console.log(s);
+}
+}
